@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            function fL(){
+                alert("Clicked Less")
+            }
+            function fM(){
+                alert("Clicked More")
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <form>
+                <table id="m_form">
+                    <tbody>
+                        <tr>
+                            <th>Experiencia Laboral</th>
+                        </tr>
+                        <tr>
+                            <td>Titulo: </td>
+                            <td>
+                                <input type="text" name="title">
+                            </td>
+                            <td>Empresa: </td>
+                            <td>
+                                <input type="text" name="company">
+                            </td>
+                            <td><button type="button" onclick="fL(this)">-</button></td>
+                            <td><button type="button" onclick="fM(this)">+</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
