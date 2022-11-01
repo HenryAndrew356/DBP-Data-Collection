@@ -1,0 +1,7 @@
+window.innerWeight
+window.innerHeight
+scroll
+
+
+
+curriculum a correo electronico
